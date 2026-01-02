@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <h1 class="title">Sign Up</h1>
+                <p class="subtitle">Create an Account with UniMart</p>
+
+                <form class="form-container">
+                    <div class="details">
+                        <label for="Fname">Enter your name</label>
+                        <input type="text" name="Fname" id="Fname" placeholder="Firstname" required>
+                    </div>
+
+                    <div class="details">
+                        <label for="Sname">Enter your surname</label>
+                        <input type="text" id="Sname" name="Sname" placeholder="Surname" required>
+                    </div>
+
+                    <div class="details">
+                        <label for="gender">Gender</label>
+                        <select required>
+                            <option value="">--Select--</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                        </select>
+                    </div>
+                    <div class="details">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="dob" id="dob" required>
+                    </div>
+
+                    <div class="details">
+                        <label for="mail">Enter email address</label>
+                        <input type="email" name="mail" id="mail" placeholder="user@gmial.com" required>
+                    </div>
+                    <div class="details">
+                        <label for="uni">University Attended</label>
+                        <select>
+                            <option value="">--Select--</option>
+                            <option value="AU">Africa University</option>
+                            <option value="AJU">Arrupe Jesuit University</option>
+                            <option value="BUSE">Bindura University of Science Education</option>
+                            <option value="CATH">Catholic University</option>
+                            <option value="CUT">Chinhoyi University of Technology</option>
+                            <option value="HIT">Harare Institute of Technology</option>
+                            <option value="MSU">Midlands State University</option>
+                            <option value="NUST">National University of Science of Science and Technology</option>
+                            <option value="UZ">University of Zimbabwe</option>
+                            <option value="ZEGU">Zimbabwe Ezekiel Guti University</option>
+                        </select>
+                    </div>
+
+                    <div class="details">
+                        <label for="pass">Enter password</label>
+                        <input type="password" name="pass" id="pass" placeholder="Enter password"required>
+                    </div>
+
+                    <div class="details">
+                        <label for="cPass">Confrim Passwrod</label>
+                        <input type="password" name="cPass" id="cPass" placeholder="Confirm Password" required>
+                    </div>
+
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
